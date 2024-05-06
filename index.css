@@ -1,0 +1,2717 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+    /* background-color: white; */
+    /* background-color: rgb(10 9 9 / 90%); */
+
+
+}
+
+body {
+    /* background-color: rgb(10 9 9 / 90%); */
+
+    /* background: red; */
+    background-attachment: fixed;
+    /* box-shadow: inset 200px 200px 200px 200px black; */
+    /* background-image: url(/HTML/image/netflix.jpg); */
+}
+
+body header {
+    /* overflow: hidden; */
+    position: relative;
+    height: 730px;
+    width: 100vw;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no repeat;
+    background-image: url(/SonyLive/soni\ \(2\).png);
+}
+
+.second_div {
+    box-sizing: border-box;
+    padding: 15px;
+    /* z-index:/ -100px; */
+}
+
+marquee li>img {
+    /* width: 100%; */
+    box-sizing: content-box;
+    position: relative;
+    /* position: absolute; */
+}
+
+#sony-img {
+    height: 700px;
+    /* position:    absolute; */
+    background-attachment: fixed;
+}
+
+.first_div {
+    position: fixed;
+    background-color: rgb(10 9 9 / 73%);
+    height: 96px;
+    width: 100%;
+    border-right: 2px solid red;
+    border-left: 2px solid rgb(0, 255, 115);
+    border-top: 1px solid white;
+    /* box-shadow: 10px 10px 10px black; */
+}
+
+.bottem-flext-div:hover {
+    border: 3px double blue;
+    /* transform: skewX(360deg); */
+    scale: 0.9;
+    transition: all ease-in-out 1.9s;
+}
+
+#AppHeader .navbarLeft {
+    line-height: 50px;
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-flow: row;
+}
+
+.false base {
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+
+
+}
+
+.navbarRight {
+    display: flex;
+    /* background-color: rgb(10 9 9 / 90%); */
+
+}
+
+.smart-hook-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+
+
+.smart-hook-btn .rightArrow {
+    float: inline-end;
+    margin-top: -11px;
+    margin-left: 42px;
+    background: none;
+    margin-right: 3px;
+
+}
+
+.smart-hook-btn {
+    border-radius: 8px;
+    border: none;
+}
+
+
+#AppHeader .navbarLeft .homeLogo .sonyLogo {
+    object-fit: contain;
+    width: 2.5em;
+    height: 3.5em;
+    margin: 0.3125em 0 0 0.125em;
+}
+
+.dropdown {
+    /* #westnesS  { */
+    cursor: pointer;
+    animation: fadeln 2s infinite;
+    animation-iteration-count: 1;
+    margin: 5px auto;
+
+
+    /* animation-timing-function: ease-in-out; */
+    /* animation-name/: alternate; */
+
+    /* transition: all ease-in-out 1.2s; */
+
+}
+
+.maindrop3 {
+    visibility: hidden;
+}
+
+.maindrop2 {
+    visibility: hidden;
+
+
+}
+
+.maindrop {
+    visibility: hidden;
+}
+
+.megeMenuTop3 .bottemright {
+    /* position: fixed; */
+    margin-bottom: -143px;
+    background: rgb(10);
+    background-color: rgb(10 9 9 / 90%);
+    margin-top: 81px;
+    border: 2px solid white;
+    margin: 81px -94px;
+}
+
+@keyframes fadeln {
+    0% {
+        transform: rotate3d(31, 22, 37, 45deg);
+    }
+
+    50% {
+        transform: rotate3d(31, 22, 37, 145deg);
+    }
+
+    100% {
+        transform: rotate3d(31, 22, 37, 360deg);
+
+    }
+
+}
+
+#westnesS {
+    cursor: pointer;
+    background-color: rgb(195, 151, 28);
+    color: black;
+    padding: 7px;
+    border-radius: 15px;
+    border-top: 3px double rgb(255, 255, 255);
+    width: 116px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.rightArrow {
+    background-color: rgb(195, 151, 28);
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+    border-top: 3px double rgb(255, 255, 255);
+}
+
+.dropdownBtn:hover {
+    /* transform: rotate3d(31, 22, 37, 360deg); */
+    text-decoration: underline;
+    transition: all 1.5s;
+    /* background: linear-gradient(0deg, #000,#272727); */
+    background-color: rgb(195, 151, 28);
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+    border-top: 3px double rgb(255, 255, 255);
+    /* #westnesS { */
+    background-color: rgb(195, 151, 28);
+    color: black;
+    padding: 7px;
+    border-radius: 15px;
+    border-top: 3px double rgb(255, 255, 255);
+    width: 116px;
+
+    font-size: 18px;
+    box-sizing: border-box;
+
+}
+
+.first_div {
+    z-index: 110;
+}
+
+.maindrop {
+    z-index: -110;
+}
+
+.menu_0>base button {
+    border: none;
+    padding: 5px;
+}
+
+.dropdownBtn {
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    justify-content: space-evenly;
+}
+
+/* .dropdownBtn::after { */
+/* content: ""; */
+/* position: absolute; */
+/* top: 63px; */
+/* width: 100%; */
+/* width: 95px; */
+/* right: 250px; */
+/* left: 32/50px; */
+/* border-bottom: 2px solid red; */
+/* background-color: aqua; */
+/* height: 3px; */
+/* transform: translatex(-787px); */
+/* transition: .5s; */
+/* transition-behavior: unset; */
+/* transition-duration: .5s; */
+/* transition-timing-function: ease; */
+/* transition-delay: 10s; */
+/* transition: all ease-in-out 6.35s; */
+/* }     */
+
+/* .dropdownBtn:hover::before {
+    width: 30%;
+  } */
+
+.maindrop {
+    /* border: 1px solid white; */
+    height: fit-content;
+    /* background-color:rgb(10 9 9 / 90%); */
+    font-family: sans-serif;
+    padding-top: 173px;
+    background-color: black;
+
+}
+
+.maindrop2 {
+    margin: -140px autol̥ōō;
+    border: 1px solid white;
+    height: fit-content;
+    /* background-color: rgb(10 9 9 / 90%); */
+    font-family: sans-serif;
+    /* padding-top: 173px; */
+
+    background-color: black;
+}
+
+.maindrop3 {
+    margin: -114px auto;
+    border: 1px solid white;
+    height: fit-content;
+    /* background-color: rgb(10 9 9 / 90%); */
+    font-family: sans-serif;
+    /* padding-top: 173px; */
+    background-color: black;
+}
+
+
+.megeMenuTop {
+    height: 63px;
+    width: 87%;
+    z-index: 5000;
+    display: flex;
+    position: relative;
+    /* padding: 10px; */
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.topLeft {
+    width: 20%;
+    font-size: 1.125em;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.topLeft .rightArrow {
+    width: 1.125em;
+    height: 1em;
+    margin-left: .3125em;
+    margin-top: 1%;
+}
+
+
+.topRight {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 80%;
+    height: 100%;
+    /* position: absolute; */
+    right: 0;
+    padding-top: 5px;
+    /* line-height: 71px; */
+}
+
+.activeChannel {
+    /* background-co/lor: rgba(255, 255, 255, 0.75); */
+    color: #000;
+    width: 99px;
+    border-radius: 28px;
+    border: 3px double red;
+
+    /* border: none; */
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #000;
+    cursor: pointer;
+    height: 50px;
+    line-height: 100%;
+}
+
+.inactiveChannel {
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    width: 99px;
+    border: none;
+    height: 50px;
+}
+
+.inactiveChannel:hover {
+    transition: all 1.5s;
+    border: 3px double red;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #000;
+    /* width: 99px; */
+    border-radius: 28px;
+}
+
+
+.bottemright {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    /* position: relative; */
+    table-layout: auto;
+    /* border: 2px solid aqua; */
+    /* background-color: #000; */
+
+}
+
+.bottemright>div {
+    margin: 0 299px;
+    border: white;
+    /* background-color: white; */
+    /* padding: 5px; */
+    /* justify-self: baseline; */
+    justify-content: space-evenly;
+
+
+    table-layout: auto;
+}
+
+.bottem-flext-div {
+    height: 170px;
+    border: 2px dotted white;
+    cursor: pointer;
+    /* position: fixed; */
+
+}
+
+.bottemright {
+    position: fixed;
+    background-color: rgb(10 9 9 / 90%);
+
+}
+
+/* marquee {
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: sans-serif;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+
+} */
+marquee {
+    box-shadow: inset 10px 10px 10px;
+}
+
+.megeMenuTop2 {
+    height: 63px;
+    width: 87%;
+    display: flex;
+    position: relative;
+    /* padding: 10px; */
+    /* border: 2px solid red; */
+    /* margin: 15px auto; */
+    /* margin-bottom: 69px; */
+}
+
+.megeMenuTop3 {
+    height: 63px;
+    width: 87%;
+    display: flex;
+    position: relative;
+    /* padding: 10px; */
+    /* border: 2px solid red; */
+    margin: 15px auto;
+    /* margin-bottom: 69px; */
+    background-color: rgb(10 9 9 / 90%);
+}
+
+.megeMenuTop3 .bottemright {
+    /* position: fixed; */
+    margin-bottom: -143px;
+    background: rgb(10);
+    background-color: rgb(10 9 9 / 90%);
+}
+
+.bottem-flext-div {
+    cursor: pointer;
+    height: 150px;
+    background-size: cover;
+    width: 150px;
+    background-image: url(https://images.slivcdn.com/videoasset_images/stis3_28feb_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+#img1 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/ramayan_portrait_thumb_sp.jpg?h=494&w=344&q=high);
+}
+
+#img2 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/indianidol2023_24_portrait_thumb_9.jpg?h=494&w=344&q=high);
+}
+
+#img3 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/madnessmachayenge_1_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+#img4 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/mehndiwalaghar_portrait_thumb_1.jpg?h=494&w=344&q=high);
+}
+
+#img5 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/barsatein_15nov_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+#img6 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/sss3_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+
+/* second */
+
+#img21 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/ucl23_24_qfgob_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+#img22 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/saudisupercup24_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+#img23 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/facup23_24gob_2_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+#img24 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/bundesliga_gob_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+#img25 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/spl_gob_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+#img26 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/uel23_24generic_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+
+/* third colum */
+#img31 {
+    background-image: url(https://images.slivcdn.com/portrait_thumb/4671998507001.jpg?h=494&w=344&q=high);
+}
+
+#img32 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/fire_in_the_mountains_hindi_12dec_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+#img33 {
+    background-image: url(https://images.slivcdn.com/portrait_thumb/4643867281001.jpg?h=494&w=344&q=high);
+}
+
+#img34 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/saala_khadoos_hindi_29june_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+#img35 {
+    background-image: url(https://images.slivcdn.com/portrait_thumb/Re_LOVE_STORY_12FEB_Potrait_Thumb_WITHOUT_WTP.jpg?h=494&w=344&q=highs);
+}
+
+#img36 {
+    background-image: url(https://images.slivcdn.com/videoasset_images/bhonsle_hindi_12dec_portrait_thumb.jpg?h=494&w=344&q=high);
+}
+
+#westnesS {
+    /* display: block; */
+    position: relative;
+}
+
+/* #westnesS:hover .maindrop{
+    display: block;
+} */
+
+.botttem-flextright-items-left {
+    box-shadow: -2px 29px 36px 10px black;
+    gap: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    table-layout: auto;
+    /* margin: 0 25px; */
+    /* margin: 0 auto; */
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-evenly;
+    /* display: none; */
+    border: 2px solid black;
+}
+
+/* .ddp {
+    display: block;
+    background-color: aqua;
+    position: relative;
+    text-decoration: none;
+}
+.dpdbmb {
+    position: absolute;
+    display: none;
+    background-color: white;
+    max-width: 150px;
+    border: none;
+    transition: all opacity 5s;
+    left: -8px;
+}
+.ddp:hover .dpdbmb {
+    display: block;
+    opacity: 1;
+} */
+
+
+
+
+/* section */
+
+section>div {
+    border-right: 2px solid darkgoldenrod;
+    border-top: 2px solid white;
+    border-left: 2px solid darkgoldenrod;
+    border-bottom: 2px solid darkgoldenrod;
+    color: white;
+    font-family: sans-serif;
+    background-color: #151515;
+    /* background-color: rgb(10 9 9 / 90%); */
+
+}
+
+section>.main-section {
+    /* border: 2px soide white ; */
+    /* box-shadow: 10px 10px 10px aqua; */
+    width: 100%;
+    padding: 15px;
+    /* background-color: red; */
+    height: fit-content;
+    position: absolute
+}
+
+
+.title-img {
+    /* box-shadow: inset -2px -4px 28px deeppink; */
+    cursor: pointer;
+    border-radius: 25px;
+    border: 2px double aqua;
+    background-size: cover;
+    /* position: absolute; */
+    height: 200px;
+    box-shadow: inset -2px -4px 12px cornflowerblue;
+    cursor: pointer;
+    transition: all ease-in .5s;
+    /* margin-bottom: 15px; */
+    width: 100%;
+    background-image: url(https://images.slivcdn.com/videoasset_images/liv_recommends_thrillers_web.jpg?q=high);
+}
+
+.title-img:hover {
+    border: 2px double red;
+    box-shadow: inset -2px -4px 28px deeppink;
+
+    /* box-shadow: inset -2px -4px 12px cornflowerblue; */
+
+
+}
+
+.title-section23 {
+    width: 50%;
+    position: absolute;
+    height: 50%;
+    border: 2px solid white;
+}
+
+#midde {
+    width: fit-content;
+    height: 50%;
+    line-height: 50%;
+    margin: 0 auto;
+}
+
+.title-img2 {
+    /* box-shadow: inset -2px -4px 28px deeppink; */
+    cursor: pointer;
+    border-radius: 25px;
+    border: 2px double aqua;
+    background-size: cover;
+    /* position: absolute; */
+    height: 300px;
+    box-shadow: inset -2px -4px 12px cornflowerblue;
+    cursor: pointer;
+    transition: all ease-in .5s;
+    /* margin-bottom: 15px; */
+    width: 100%;
+    background-position: 100%;
+    background-image: url(https://images.slivcdn.com/videoasset_images/MCTelugu_30march_promo_skin_video_ipad_web.jpg?h=240&w=1259&q=high);
+}
+
+.title-img2:hover {
+    border: 2px double red;
+    box-shadow: inset -2px -4px 28px deeppink;
+
+    /* box-shadow: inset -2px -4px 12px cornflowerblue; */
+
+
+}
+
+
+.card-slider {
+    position: relative;
+    height: fit-content;
+
+    width: 100%;
+    /* overflow-x: scroll; */
+    margin: 0 auto;
+    /* overflow-y: hidden; */
+    /* background-color: red; */
+    /* border: 2px solid red; */
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: repeat(auto-fit, minmax(100px, 30fr));
+}
+
+
+.card-slider>div {
+    height: 200px;
+
+    transition: all ease-in-out .5s;
+    /* gap: 10px; */
+    cursor: pointer;
+    /* width:  120px; */
+    /* border: 3px double darkgoldenrod; */
+}
+
+.card-slider>div:hover {
+    transform: scale(1.1);
+    border: none;
+    border: 3px double white;
+}
+
+.card-slider3>div {
+    height: 149px;
+    justify-content: center;
+    transition: all ease-in-out .5s;
+    /* gap: 10px; */
+    cursor: pointer;
+    flex-direction: column;
+    width: 120px;
+    border: 3px solid darkgoldenrod;
+    /* box-shadow: 10px 10px 10px 10px red; */
+}
+
+.card-slider3>div:hover {
+    transform: scale(1.1);
+    border: none;
+    border: 3px double white;
+}
+
+.card-slider4>div {
+    height: 186px;
+    justify-content: center;
+    transition: all ease-in-out .5s;
+    /* gap: 10px; */
+    cursor: pointer;
+    flex-direction: column;
+    width: 120px;
+    /* border: 3px double darkgoldenrod; */
+}
+
+.card-slider4>div:hover {
+    transform: scale(1.1);
+    border: none;
+    border: 3px double white;
+}
+
+
+#gride1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 22px;
+    border: 3px solid darkgoldenrod;
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/spl2024_al_nassr_vs_al_fayha_rd28_11apr_portrait_thumb.jpg?h=494&w=344&q=high");
+}
+
+#gride2 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/uefayouthleague2024_sf_fcporto_vs_acmilan_18apr_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    border: 3px solid darkgoldenrod;
+}
+
+#gride3 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/fa_cup_1day_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    border: 3px solid darkgoldenrod;
+}
+
+#gride4 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/wwe_smackdown_19apr_portrait_thumb_ddt.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    border: 3px solid darkgoldenrod;
+}
+
+#gride5 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/facup2024_sf_mancity_vs_chelsea_17apr_dated_preview_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    border: 3px solid darkgoldenrod;
+}
+
+#gride6 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/uel2024_qf_leg2_atalanta_vs_liverpool_19apr_highlights_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    border: 3px solid darkgoldenrod;
+}
+
+#gride7 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/facup2024_sf_coventrycity_vs_manunited_17apr_dated_preview_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    border: 3px solid darkgoldenrod;
+}
+
+#gride8 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/facup2024_sf_mancity_vs_chelsea_16apr_dated_promo_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    border: 3px solid darkgoldenrod;
+}
+
+
+/* second */
+
+
+
+#gride11 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/maharanis3_set1_6march_hotpick_portrait_thumb.jpg?h=474&w=316&q=high");
+}
+
+#gride12 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/adrishyam_hotpick_newshow_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride13 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/raisinghanivsraisinghani2_hp_11mar_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride14 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/qoty_hotpick_15apr_potrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride15 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/tarakmehata_15mar_hotpick_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride16 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/familyaajkal_2apr_new_show_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride17 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/scam2003_holiday_1_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride18 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/gullak_holiday_1_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+
+/* third */
+
+
+
+#gride21 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/facup_rail_1_16april_portrait_thumb.jpg?h=474&w=316&q=high");
+}
+
+#gride22 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/facup_rail_2_16april_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride23 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/facup_rail_3_16april_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride24 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/facup_rail_4_16april_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride25 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/facup_rail_5_16april_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride26 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/facup_rail_6_16april_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px soli    d darkgoldenrod; */
+}
+
+
+/* forth */
+
+
+
+#gride31 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/adrishyam_promo_18apr_portrait_thumb.jpg?h=474&w=316&q=high");
+}
+
+#gride32 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/mctamil_promo_18apr_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride33 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/mctelugu_promo_18apr_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride34 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/rvr_promo_18apr_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride35 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/baalveer4_promo_18apr_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+
+.card-slider3 {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    /* overflow-x: scroll; */
+    margin: 0 auto;
+    /* overflow-y: hidden; */
+    /* background-color: red; */
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 30fr)); */
+    /* justify-content: space-between; */
+}
+
+.card-slider4 {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    /* overflow-x: scroll; */
+    margin: 0 auto;
+    /* overflow-y: hidden; */
+    /* background-color: red; */
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 30fr)); */
+    /* justify-content: space-between; */
+}
+
+
+#gride61 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/liv_rec_tvrail_18april_portrait_thumb.jpg?h=474&w=316&q=high");
+}
+
+#gride62 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/adrishyam_18april_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride63 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/2018_18april_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride64 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/chaveer_malayalam_10march_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride65 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/por_thozhil_18april_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride66 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/salute_18april_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride67 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/innale_vare_18april_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride68 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/farhana_18april_portrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#asdf {
+    background-color: #000;
+}
+
+
+#gride91 {
+    box-shadow: inset -2px -4px 12px cornflowerblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/qoty_rail_1_15apri_potrait_thumb.jpg?h=474&w=316&q=high");
+}
+
+#gride92 {
+    box-shadow: inset -2px -4px 12px cornflowerblue;
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/qoty_rail_2_15apri_potrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride93 {
+    box-shadow: inset -2px -4px 12px cornflowerblue;
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/qoty_rail_3_15apri_potrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride94 {
+    box-shadow: inset -2px -4px 12px cornflowerblue;
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/qoty_rail_4_15apri_potrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride95 {
+    box-shadow: inset -2px -4px 12px cornflowerblue;
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/qoty_rail_5_15apri_potrait_thumb.jpg?h=474&w=316&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride101 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/tmkoc22_portrait_thumb.jpg?h=484&w=344&q=high");
+}
+
+#gride102 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/madnessmachayenge_1_portrait_thumb.jpg?h=484&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride103 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/dabangi1_portrait_thumb.jpg?h=484&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride104 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/kgmn_portrait_thumb.jpg?h=484&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride105 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/kavya2_portrait_thumb.jpg?h=484&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride106 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/adrishyam_4_portrait_thumb_newshow.jpg?h=484&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride107 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/dildiyaangallaan_portrait_thumb.jpg?h=484&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride108 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/krjkah_portrait_thumb.jpg?h=484&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+
+.oneslideimg {
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+#oneslide {
+    /* flex-direction: column; */
+
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    border: 2px solid white;
+}
+
+#oneslide img {
+    width: 100%;
+    height: 100%;
+}
+
+.aqswaaq {
+    /* border: 2px solid white; */
+    width: 100%;
+    height: fit-content;
+
+
+}
+
+.aqswaaq>div {
+    margin: 0 auto;
+    background-position: center;
+    width: 100%;
+    /* background-size: cover; */
+    height: 150px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.slivcdn.com/videoasset_images/combococ_mancitypreview_and_unitedpreview_19apr_tonight_web.jpg?h=159&w=1180&q=high);
+}
+
+#gride1111 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/baalveer4_1_portrait_thumb.jpg?h=494&w=344&q=high");
+}
+
+#gride1112 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/barsatein_15nov_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride1113 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/Yeh-Un-Dinon-Ki-Baat-Hai1_Portrait_Thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride1114 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/ek_duje_ke_vaaste_portrait_thumb_re1_21dec.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride1115 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/bade_ache_lagte_he_portrait_thumb_re1_21dec.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride1116 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/kathaankhahee_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride1117 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/beyhadh_a_portrait_thumb_re1_21dec.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride1118 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/tkss_2022_23_portrait_thumb2.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride2111 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/PTS_SET_logo_23oct_circular_thumb.jpg?h=344&w=344&q=high");
+}
+
+#gride2112 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/PTS_SonyMarathi_logo_23oct_circular_thumb.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride2113 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/PTS_BBC_logo_23oct_circular_thumb.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride2114 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/PTS_AATH_logo_23oct_circular_thumb.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride2115 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/PTS_YAY_logo_23oct_circular_thumb.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride2116 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://cctvbuyersguide.com/wp-content/uploads/2016/10/sony_logo500x500.jpg);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride2117 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/moveis_11july_square_thumb.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride2118 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/sports_11july_square_thumb.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride2119 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://th.bing.com/th/id/R.228cb74d9ca6b281c1fc80223eb22dca?rik=TAKZa0e3UwO43g&riu=http%3a%2f%2frhodabarfoot.com%2fwp-content%2fuploads%2f2013%2f06%2fnashville-067.jpg&ehk=7Y1j6Mmx8A1EJxnL1guBBkM54kOP5HtnW3De4S9Ka1I%3d&risl=1&pid=ImgRaw&r=0);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride171 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/wwe_mitb23_gen_30june_portrait_thumb_replay.jpg?h=494&w=344&q=high");
+}
+
+#gride172 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/summerslam_5aug_replay_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride173 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/wwe_royalrumble23_portrait_thumb_replay.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride174 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/wrestlemania_day1_replay_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride175 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/wrestlemania_day2_replay_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride176 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/royalrumble_portrait_thumb_replay.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride177 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/wrestlemaniaxl_thebloodline_vs_cody_vs_rollins_8apr_day2_replay_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride178 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/wrestlemaniaxl_thebloodline_vs_cody_vs_rollins_6apr_day1_replay_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+
+#gride7891 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/llc_portrait_thumb.jpg?h=494&w=344&q=high");
+}
+
+#gride7892 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/longestyardthe2005_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride7893 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/amco_portrait_thumb_newmovie.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride7894 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/twk_portrait_thumb_newshow.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride7895 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/wherethecrawdadssing2_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride7896 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/raidthecage2023_19thjan_portrait_thumb.jpg?h=494&w=344&q=high );
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride7897 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/thekaratekid_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gride7898 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/tkk_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#grid7891 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/scam2003thetelgistory_hindi_2nov_portrati_thumb.jpg?h=494&w=344&q=high");
+}
+
+#grid7892 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/rocket_boys_hindi_12dec_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#grid7893 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/tanaav_hindi_12dec_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#grid7894 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/re_tamilrockerz_set19_tamil_21oct_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#grid7895 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/meet_cutey_set9_multilang_portrait_thumb.jpg?h=494&w=344&q=high  );
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#grid7896 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/nijamwithsmitha_2_portrait_thumb.jpg?h=494&w=344&q=high );
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#grid7897 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/cheranjourney_tamil_10jan_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#grid7898 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/familyaajkal_hindi_portrati_thumb_newshow.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+
+#gri7891 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/2018_22dec_hindi_portrait_thumb.jpg?h=494&w=344&q=high");
+}
+
+#gri7892 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/por_thozhil_hindi_16dec_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gri7893 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/re_salute_22oct_portrait_thumb_hindi.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gri7894 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/spidermannwh_portrait_thumb_multilang_rev.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gri7895 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/saala_khadoos_hindi_29june_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gri7896 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/18journey_malayalam_multilang_portrait_thumb.jpg?h=494&w=344&q=high );
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gri7897 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/puzhu_18nov_malayalam_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gri7898 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/thewhale_multi_lang_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gr7891 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/malayalam_lang_square_imageNEW.jpg?h=344&w=344&q=high");
+}
+
+#gr7892 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/UI_icons/Multipurposecards/Carousel_Landscape_Card/Eng_lang_1x1.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gr7893 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/UI_icons/Multipurposecards/Carousel_Landscape_Card/Marathi_lang_1x1.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gr7894 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/kannada_rev22_squre_thumbnail.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gr7895 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/bangla_lang_1x1.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gr7896 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/UI_icons/Multipurposecards/Carousel_Landscape_Card/Hindi_lang_1x1.jpg?h=344&w=344&q=high );
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gr7897 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/UI_icons/Multipurposecards/Carousel_Landscape_Card/Tamil_lang_1x1.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#gr7898 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/UI_icons/Multipurposecards/Carousel_Landscape_Card/Telugu_lang_1x1.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#g7893 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/volleyball_12feb_square_thumb.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#g7894 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/ufc_11july_square_thumb_rev.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#g7895 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/ufc_11july_square_thumb_rev.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#g7896 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/wwe_11july_square_thumb_rev.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#g7897 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/football_11july_square_thumb.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#g7898 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/cricket_11july_square_thumb.jpg?h=344&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+.togalqwer {
+    width: 100%;
+    /* height: 500px; */
+    /* padding: 5px; */
+    color: #fff;
+    position: relative;
+    /* background-color: black; */
+    /* border: 2px solid darkgoldenrod; */
+}
+
+.mainqwerrrrrrrrew {
+    /* position: absolute; */
+
+    width: 100%;
+    margin: -6px auto;
+    /* display: flex; */
+    height: 50px;
+    /* border: 2px solid white; */
+}
+
+#mytitle {
+    line-height: 50px;
+    float: left;
+    position: relative;
+    color: #fff;
+}
+
+.filouttagetogal-main {
+    width: 143%;
+    /* border: 2px solid aqua; */
+    /* float: inline-start; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    line-height: 50px;
+}
+
+.filouttagetogal-asdmain {
+    cursor: pointer;
+    height: fit-content;
+    /* border: 2px solid red; */
+    display: flex;
+    transition: all ease-in-out .5s;
+}
+
+#filouttagetogal1 {
+    border-radius: 36px;
+    font-size: 15px;
+    color: black;
+    background-color: #fff;
+    /* padding: 1px; */
+    width: 86px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    border: 2px dotted red;
+}
+
+.filouttagetogal:hover {
+    border-radius: 36px;
+    font-size: 15px;
+    color: black;
+    background-color: #fff;
+    /* padding: 1px; */
+    width: 86px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    border: 2px dotted red;
+
+
+}
+
+
+
+#suraj7891 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/wwegeneric2023_portrait_thumb.jpg?h=494&w=344&q=high");
+}
+
+#suraj7892 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/ucl23_24_qfgob_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#suraj7893 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/saudisupercup24_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#suraj7894 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/atp_montencarlomasters24_portrait_thumb_2.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#suraj7895 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/bundesliga_gob_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#suraj7896 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/spl_gob_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#suraj7897 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/prime_volleyball_portrait_thumb_34.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#suraj7898 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/slvsafg_portrait_thumb_1.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+
+#sura7891 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+    /* background-color: black */
+    background-image: url("https://images.slivcdn.com/videoasset_images/sinam_12june_portrait_thumb.jpg?h=494&w=344&q=high");
+}
+
+#sura7892 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/Kaithi_01June_Portrait_Thumb_rev.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#sura7893 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/majili_13june_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#sura7894 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/jersey_dubbed_revl_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#sura7895 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/Main-Hoon-Lucky-The-Racer_NEW_Portrait_Thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#sura7896 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/world_famous_lover_portrait_Thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#sura7897 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/ismart_shankar_hindi_26june_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#sura7898 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/kahani_mein_twist_17feb_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#myimgasd {
+    background-size: contain;
+    border-radius: 105px;
+    background-image: url(https://images.slivcdn.com/UI_icons/Multipurposecards/Cutout_Cards/Cutout_card_Survey_web.png?h=159&w=1180&q=high);
+}
+
+
+#q101 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/5428579138001.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q102 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/5795640502001.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q103 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/4783997132001.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q104 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/kalpopurer_galpo_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q105 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/Select/balveer_aath_portrait_Thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q106 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/honey_bunny_in_gangs_of_filmcity_26nov_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q107 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/Kicko_And_Super_Speedo_portrait_thumb_multilang.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q108 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/Honey_Bunny_Ka_Jholmaal_portrait_thumb_multilang.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q11 {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/changing_planet_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q12 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/what_killed_the_whale_18dec_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q13 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/frozen-planet2_17oct_portriat_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q14 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/dynasties_season2_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q15 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/china_ancient_Mobile_Portrait_Thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q16 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/videoasset_images/earthgreatriversii_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q17 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/Universe_Mobile_Portrait_Thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+#q18 {
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    /* background-color: black; */
+    background-image: url(https://images.slivcdn.com/portrait_thumb/CITY_IN_THE_SKY_25_JUNE_portrait_thumb.jpg?h=494&w=344&q=high);
+    border-radius: 22px;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+/* section{
+                                                    overflow: hidden;
+                                                } */
+
+.footer {
+    width: 98%;
+    height: fit-content;
+    padding: 35px;
+    /* position: absolute; */
+    background-color: #000;
+    /* border: 2px solid white; */
+}
+
+.main-footer {
+    text-align: center;
+    height: fit-content;
+    margin: 0 auto;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(164px, 30fr));
+    width: 100%;
+    justify-content: center;
+    /* border: 2px double red; */
+}
+
+.main-footer>div {
+    height: fit-content;
+    /* border: 2px solid aqua; */
+
+}
+
+.main-footer-grid-div li {
+    color: gray;
+    cursor: pointer;
+    line-height: 32px;
+    font-size: 12px;
+    list-style-type: none;
+}
+
+.legalsocialcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.mainlaster-footer {
+    width: 100%;
+    /* border: 2px solid white; */
+}
+
+.mainlaster-footer>div {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    /* font-size: -35px; */
+    width: 80%;
+    /* border: 2px solid white; */
+    /* margin: 0 auto; */
+    cursor: pointer;
+}
+
+.legal>div {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.icondicod {
+
+    width: 120px;
+    height: 15px;
+    /* height: 140px; */
+    background-size: 100%;
+}
+
+/* .icondicod img {} */
+@media screen and (max-width:450px) {
+    .card-slider3 {
+        justify-content: space-evenly;
+    }
+
+    .card-slider4 {
+        justify-content: center;
+    }
+
+
+    .title-section23 {
+        display: none;
+        width: 72%;
+        /* position: absolute; */
+        height: 25%;
+    }
+
+    .mainqwerrrrrrrrew h1 {
+        /* float: left; */
+        /* position: relative; */
+        /* color: #fff; */
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .filouttagetogal-main {
+        display: none;
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+
+
+    .maindrop2 {
+        display: none;
+    }
+
+    .maindrop3 {
+        display: none;
+    }
+
+    body .media-img {
+        height: 530px;
+        width: 100%;
+        /* background-position: center center; */
+        background-repeat: no repeat;
+        background-image: url(/SonyLive/soni\ \(5\).png);
+        background-size: cover;
+    }
+
+    header .first_div {
+        position: fixed;
+        background-color: rgb(10 9 9 / 74%);
+        height: 69px;
+        width: 100%;
+        /* border-top: 1px solid white; */
+    }
+
+    .first_div .second_div {
+        padding: 1px;
+    }
+
+    .visible {
+        font-family: sans-serif;
+        font-size: 3px;
+        line-height: 22px;
+        margin-left: 23px;
+
+    }
+
+    .smart-hook-inner-div button {
+        padding-top: 6px;
+        width: 105px;
+        height: 31px;
+        font-size: 16px;
+        padding-right: 3px;
+    }
+
+    .navbarRight #search {
+        padding-right: 1px;
+        font-size: 33px;
+    }
+
+    #myAccountMenu {
+        padding-right: 7px;
+        font-size: 36px;
+        padding-left: 22px;
+    }
+
+    .dropdown span {
+        font-size: 15px;
+        display: none;
+    }
+
+    .maindrop {
+        display: none;
+
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    #showDiv2 {
+        margin: -124px auto;
+    }
+
+
+    .megeMenuTop div {
+        /* width: 20%; */
+        font-size: 17px;
+    }
+
+    .megeMenuTop3 .bottemright {
+        padding-right: 225px;
+
+    }
+
+    .mainlaster-footer {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+
+
+    .bottemright .botttem-flextright-items {
+        margin: 0 22px;
+    }
+
+    .megeMenuTop3 .bottemright {
+        /* margin: 0px 50px; */
+        width: 1049px;
+        /* padding-left: 29px; */
+    }
+}
+
+
+@media screen and (max-width:1450px) {
+
+
+
+    .smart-hook-inner-div {
+        margin: 1px auto;
+    }
+
+    .smart-hook-btn {
+
+        border-radius: 8px;
+        border: none;
+        width: 101px;
+        height: 32px;
+    }
+
+}
+
+
+@media screen and (max-width:2560px) {
+
+
+    .maindrop2 {
+        margin-top: -143px;
+
+    }
+
+
+    .mainmenu {
+
+        text-align: center;
+        margin: auto;
+        text-align: center;
+        font-family: math;
+
+    }
+
+    .myAccountMenu {
+        padding-right: 7px;
+        font-size: 41px;
+        padding-left: 22px;
+        margin: 11px auto;
+    }
+
+    .search {
+        margin: 11px auto;
+        padding-right: 28px;
+        font-size: 36px;
+    }
+
+    .active .sonyLogo {
+        object-fit: contain;
+        width: 7.5em;
+        height: 3.5em;
+        line-height: 50px;
+        margin: 0.3025em 0 0 0.125em;
+    }
+
+    .smart-hook-btn {
+
+        width: 124px;
+        height: 37px;
+        font-size: 17px;
+        padding-right: 3px;
+        padding-top: 9px;
+        margin: 15px auto;
+    }
+
+    .smart-hook-btn .rightArrow {
+        margin: 15px auto;
+        /* margin-top: 4px; */
+        float: inline-end;
+        margin-top: -13px;
+        margin-left: 48px;
+        background: none;
+        margin-right: 1px;
+        padding-top: -90px;
+    }
+
+
+
+
+
+
+}
+
+@media screen and (min-width:2560px) {
+
+    .title-img{
+        height: 716px;
+    }
+    .title-img2{
+        height: 507px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    body {
+        font-size: 18px;
+    }
+}
